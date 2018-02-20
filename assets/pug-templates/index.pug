@@ -1,23 +1,45 @@
-doctype html5
-html
-    head
-        title scraping skills
-        link
-    body
-        h1 testing!
-        p link git profiles. 3 col socials.
-        div
-            p category and background image. .hover2space click to toggle
-        div
-            p category and image. .hover2space click to toggle
-        div
-            p category and image. .hover2space click to toggle
-        div
-            p category and image. .hover2space click to toggle
-        p #key. list/table 5 padded rows. 2 visible on hover 5 on click
-        p.
-            #note.
-            use global style, project style, folder style or overwrite with specif
-            404 (working out kinks & links) - link back. do you want to leave feedback, this is already logged. Well, you seem what had happened wass
+extends layout.pug
+block head
+    - var pageTitle = "scraping skills";
+    - var pageDescription = "SEO stuff";
+    - var pageKeywords = "SEO stuff";
+    //meta(name="description" content="SEO stuff")
+block content
+    section
+    .container-fluid
+        .container
+            .row
+                h1 testing!
+                p link git profiles. 3 col socials.
+                .col
+                    p category and background image. .hover2space click to toggle
+                .col
+                    p category and image. .hover2space click to toggle
+                div
+                    p category and image. .hover2space click to toggle
+                div
+                    p category and image. .hover2space click to toggle
+                p #key. list/table 5 padded rows. 2 visible on hover 5 on click
+                p.
+                    #note.
+                    use global style, project style, folder style or overwrite with specif
+                    404 (working out kinks & links) - link back. do you want to leave feedback, this is already logged. Well, you seem what had happened wass
+            .row
+                .col
+                    p what is it?
+            .row
+                .col
+                    p.text-center link on gh
+            .row
+                .col
+                    p link to git -me
+                .col
+                    p link to ghs -joey
+                .col
+                    p link to ghs - john
+            .row
+                .col
+                    p follow link to here - deals.php
+block endscript
 
 

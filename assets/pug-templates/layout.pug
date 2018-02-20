@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+    head
+        block head
+        title #{pageTitle} - ????
+        meta(name="description" content=pageDescription)
+        meta(name="keywords" content=pageKeywords)
+
+        meta(charset='UTF-8')
+        meta(http-equiv="X-UA-Compatible" content="IE=Edge")
+        //meta(name="author", content="Dee Adebayo")
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        //link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" ) - check for updates to this library/alternatives
+        link(rel='stylesheet', href='../public/css/style.css')
+        link(rel='stylesheet', href='/public/css/style.css')
+        //link(rel="shortcut icon", type="image/x-icon", href="favicon.ico")
+    body
+        //block navigation
+        //.wrapper
+            block content
+        block content
+        //include ./footer.jade
+        //script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js") - update JS
+        //script(src='/public/js/scripts.js') no file
+        //script(src="/public/js/footer.js")
+        block endscript
