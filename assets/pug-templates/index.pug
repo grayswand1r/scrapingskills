@@ -4,6 +4,10 @@ block head
     - var pageDescription = "SEO stuff";
     - var pageKeywords = "SEO stuff";
     //meta(name="description" content="SEO stuff")
+    //add some web cache stuff - cache-aware script in either .htaccess or html meta tag
+    meta(http-equiv="Pragma" content="non-cache")
+    meta(http-equiv="Expires" content="-1")
+    meta(http-equiv="CACHE-CONTROL" content="NO-CACHE")
 block content
     section
     .container-fluid
@@ -12,6 +16,13 @@ block content
                 h1 testing! - this is projects/scraping/
             .row
                 p link git profiles. 3 col socials.
+                .col
+                    p Joey - https://github.com/grayswand1r
+                .col
+                    p Me - https://github.com/deeadebayo
+                .col
+                    p John - https://github.com/MrJkmullen
+            .row
                 .col
                     p category and background image. .hover2space click to toggle
                 .col
