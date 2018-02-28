@@ -1,0 +1,23 @@
+//.section-dividers {
+//    @include section_dividers($color);
+//}
+
+@font-face {
+    font-family: 'droid_sans_monoregular';
+    url:('/public/fonts/DroidSansMono-webfont.woff') format('woff');
+
+}
+
+
+////////////////////////// Typography ////////////////////////////////
+p {
+    font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $title-font;
+}
+
+h1 {
+    font-size: 45px;
+}
