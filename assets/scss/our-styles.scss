@@ -22,11 +22,27 @@ h1 {
     font-size: 45px;
 }
 
+.link-def {
+    color: $brand-secondary;
+    text-decoration: none;
+
+    &:hover, 
+    &:active, 
+    &:focus {
+        color: $brand-accent;
+        text-decoration: none;
+    }
+}
+
 ////////////////////////// Misc ////////////////////////////////
 .git-pic {
     //width: 80%;
+    border-radius: 5px;
 }
 
-a.icon-section p {
+.prod-cat-modules {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: .75em;
     text-align: center;
 }
